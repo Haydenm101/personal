@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+
+    <title> Activity04_index </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <img src="./images/profile.jpg" style="width: 400px;" alt="Profile Photo">
+            <h1>Hayden Murphy</h1>
+            <p style="font-family: 'Courier New', Courier, monospace; color: brown">Web Developer</p>
+            <p>I am a student at Iowa State University currently stufying Computer Science. I am a sophmore, currently
+                taking ComS 319 and ComS 321. I hope by the end of this semester I will master
+                web developing skills such as HTML, CSS, and React.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <img src="./images/project1.jpg" style="width: 600px;" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>The first project is related to develop a single Web page using
+                    only two technologies: HTML and CSS. The project consists in
+                    creating a single web page with a menu at the top know as
+                    Navigation Bar. We have to include text describing ourself and
+                    text describing the project. Additionally, we need to include
+                    two images: one image is of ourself and second image is anything
+                    related to the project itself.</p>
+            </div>
+            
+            <div class="project">
+                <img src="./images/project2.jpg" style="width: 500px;" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>During my freshman year of college, I built a task manager application in 
+                    Java with a graphical user interface (GUI) using JavaFX. The program allowed 
+                    users to create, edit, and delete tasks while assigning due dates and priority levels. 
+                    I implemented an ArrayList to store tasks and used serialization to save and load data, 
+                    so tasks would persist between sessions. To improve usability, I added sorting and 
+                    filtering features, letting users view tasks by priority or upcoming deadlines. 
+                    This project helped me develop a better understanding of object-oriented programming, 
+                    event-driven design, and basic file handling in Java. It was a great hands-on learning 
+                    experience that reinforced my skills in GUI development and data management.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at hayden1@iastate.edu</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hayden Murphy</p>
+    </footer>
+</body>
+
+</html>
